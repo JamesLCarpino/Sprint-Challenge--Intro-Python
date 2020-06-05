@@ -38,7 +38,7 @@ class Motorcycle(GroundVehicle):
 
 
 # base class for flight vehicles
-class FlightVehicle:
+class FlightVehicle(Vehicle):
     pass
 
 
@@ -47,5 +47,5 @@ class Airplane(FlightVehicle):
 
 
 # base class for starships
-class Starship:
+class Starship(FlightVehicle):
     pass
